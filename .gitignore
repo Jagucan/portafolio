@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+public/assets/projects/thumb1.png
+public/assets/projects/thumb2.png
+public/assets/projects/image-7.jpg
+public/assets/projects/image-5.jpg
+public/assets/projects/image-3.jpg
+public/assets/projects/image-1.jpg
+public/assets/profile4.png
+public/assets/icons/atomo.png
+public/assets/icons/atomo-2.png
+public/assets/icons/atom-icon.jpg
