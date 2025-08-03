@@ -1,7 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
-import { transitionVariantsPage } from "@/utils/motion-transitions";
+import { transitionVariantsPage } from "@/utils/motionTransitions";
 import { usePathname } from "next/navigation";
 
 const SlideTransition = () => {

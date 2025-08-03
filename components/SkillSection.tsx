@@ -1,4 +1,4 @@
-import { skillsList } from "@/portfolioData";
+import { skillsList } from "@/data/portfolioData";
 import {
 	TooltipProvider,
 	Tooltip,

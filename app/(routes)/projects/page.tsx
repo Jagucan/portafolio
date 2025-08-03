@@ -1,4 +1,4 @@
-import { portfolioProjects } from "@/portfolioData";
+import { portfolioProjects } from "@/data/portfolioData";
 
 import ContainerPage from "@/components/PageContainer";
 import PortfolioBox from "@/components/PortfolioBox";

@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import { navigationLinks } from "@/portfolioData";
+import { navigationLinks } from "@/data/portfolioData";
 import { Button } from "./ui/button";
 
 import Link from "next/link";

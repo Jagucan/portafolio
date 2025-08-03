@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion-transitions";
+import { fadeIn } from "@/utils/motionTransitions";
 import { usePathname } from "next/navigation";
 
 interface HeaderTransitionProps {

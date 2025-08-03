@@ -2,7 +2,7 @@
 
 import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { servicesList } from "@/portfolioData";
+import { servicesList } from "@/data/portfolioData";
 
 const SliderServices = () => {
 	return (

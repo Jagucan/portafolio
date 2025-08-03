@@ -1,4 +1,4 @@
-import { socialLinks } from "@/portfolioData";
+import { socialLinks } from "@/data/portfolioData";
 
 import Link from "next/link";
 

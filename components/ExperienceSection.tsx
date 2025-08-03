@@ -1,4 +1,4 @@
-import { experienceList } from "@/portfolioData";
+import { experienceList } from "@/data/portfolioData";
 import { ScrollArea } from "./ui/scroll-area";
 
 const ExperienceSection = () => {

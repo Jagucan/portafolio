@@ -1,4 +1,4 @@
-import { educationList } from "@/portfolioData";
+import { educationList } from "@/data/portfolioData";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 
 const EducationSection = () => {
