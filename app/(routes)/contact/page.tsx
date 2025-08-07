@@ -1,3 +1,4 @@
+import ContactForm from "@/components/ContactFrom";
 import ContainerPage from "@/components/PageContainer";
 import PageTransition from "@/components/PageTransition";
 
@@ -5,9 +6,9 @@ const ContactPage = () => {
 	return (
 		<PageTransition>
 			<ContainerPage>
-				<div>
-					<p>contact me page</p>
-				</div>
+				<PageTransition>
+					<ContactForm />
+				</PageTransition>
 			</ContainerPage>
 		</PageTransition>
 	);

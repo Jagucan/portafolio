@@ -10,7 +10,7 @@ export function LogoAnimated(props: LogoProps) {
 			<img
 				src="/assets/icons/desarrollo.png"
 				alt="JG Dev logo"
-				className="w-18 h-18 animate-spin"
+				className="w-15 h-15 animate-spin"
 				style={{
 					animationDuration: "5s",
 					filter: "invert(0.5)",

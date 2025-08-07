@@ -2,8 +2,9 @@ import { educationList } from "@/data/portfolioData";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
 
 const EducationSection = () => {
-	return (
-		<div className="flex flex-col gap-[30px] text-center lg:text-left">
+  return (
+    <div className="flex flex-col gap-[30px] text-center lg:text-left">
+      {/* Education List */}
 			<h3 className="title text-4xl">
 				{educationList.title.first}{" "}
 				<span className="text-emerald-500 font-bold">
@@ -14,13 +15,13 @@ const EducationSection = () => {
 				{educationList.description}
 			</p>
 			<ScrollArea className="h-[400px]">
-				<ul className="experience-list grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+				<ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
 					{educationList.items.map((item) => (
 						<li
 							key={item.id}
-							className="experience-item bg-[#232329] hover:bg-[rgba(65,47,123,0.15)] h-[200px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+							className="bg-[#232329] hover:bg-[rgba(65,47,123,0.15)] h-[200px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
 						>
-							<span className="experience-header text-emerald-500">
+							<span className="text-emerald-500">
 								{item.duration}
 							</span>
 							<h3 className="position text-xl max-w-[260xp] min-h-[60px] text-center lg:text-left">

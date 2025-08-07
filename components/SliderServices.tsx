@@ -28,14 +28,14 @@ const SliderServices = () => {
 			modules={[Pagination]}
 			className="h-[280px] md:h-[340px] w-[270px] md:w-[550px]"
 		>
-			{servicesList.map((item, index) => (
-				<SwiperSlide key={index}>
-					<div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[#232329] sm:flex-col gap-x-6 sm:gap-x-0 group hover:bg-[rgba(65,47,123,0.15)] transition-all duration-300  ">
+			{servicesList.map((item) => (
+				<SwiperSlide key={item.id}>
+					<div className="flex px-6 py-8 h-auto md:h-[290px] rounded-lg cursor-pointer bg-[#232329] sm:flex-col gap-x-5 sm:gap-x-0 group hover:bg-[rgba(65,47,123,0.15)] transition-all duration-300  ">
 						<div className="group transition-colors duration-300">
-							<div className="mb-4 text-4xl group-hover:text-emerald-500 transition-colors duration-300">
+							<div className="mb-3 text-4xl group-hover:text-emerald-500 transition-colors duration-300">
 								{item.icon}
 							</div>
-							<h3 className="mb-4 text-lg group-hover:text-emerald-500 transition-colors duration-300">
+							<h3 className="mb-3 text-lg group-hover:text-emerald-500 transition-colors duration-300">
 								{item.title}
 							</h3>
 							<p className="text-sm text-white/60 group-hover:text-white/80 transition-colors duration-300">

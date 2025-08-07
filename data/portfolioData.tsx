@@ -1,4 +1,6 @@
+import { info } from "console";
 import { Atom, Code2, Database, Globe } from "lucide-react";
+import { FaEnvelope, FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
 import { FiGithub, FiLinkedin, FiDatabase } from "react-icons/fi";
 import {
 	SiHtml5,
@@ -57,24 +59,28 @@ export const navigationLinks = [
 
 export const servicesList = [
 	{
+		id: 1,
 		icon: <Code2 />,
 		title: "Desarrollo Full Stack",
 		description:
 			"Aplicaciones web completas con APIs robustas e integración a bases de datos eficientes.",
 	},
 	{
+		id: 2,
 		icon: <Atom />,
 		title: "Desarrollo AR/VR",
 		description:
 			"Experiencias inmersivas, videojuegos y entornos virtuales en 3D.",
 	},
 	{
+		id: 3,
 		icon: <Globe />,
 		title: "Desarrollo Web",
 		description:
 			"Sitios web modernos, rápidos y adaptados a las necesidades de tu proyecto o negocio.",
 	},
 	{
+		id: 4,
 		icon: <Database />,
 		title: "Bases de Datos",
 		description:
@@ -235,11 +241,6 @@ export const personalInfo = {
 			fieldName: "Correo",
 			fieldValue: "Jgut.2499@gmail.com",
 		},
-		{
-			id: 6,
-			fieldName: "Freelance",
-			fieldValue: "Disponible",
-		},
 	],
 };
 
@@ -323,5 +324,31 @@ export const skillsList = {
 		{ id: 15, icon: <SiUnity />, name: "Unity" },
 		{ id: 16, icon: <SiSharp />, name: "C#" },
 		{ id: 17, icon: <SiThreedotjs />, name: "Three.js" },
+	],
+};
+
+export const contactInfo = {
+	title: "¿Tienes un proyecto? Hablemos",
+	description:
+		"Cada gran proyecto comienza con una conversación. Si tienes una idea en mente, estaré encantado de escucharla y ayudarte a darle vida.",
+	info: [
+		{
+			id: 1,
+			fieldName: "Teléfono",
+			fieldValue: "(+54) 3105821700",
+			icon: <FaPhoneAlt />,
+		},
+		{
+			id: 2,
+			fieldName: "Correo",
+			fieldValue: "Jgut.2499@gmail.com",
+			icon: <FaEnvelope />,
+		},
+		{
+			id: 3,
+			fieldName: "Ubicación",
+			fieldValue: "Cartagena, Colombia",
+			icon: <FaMapMarkedAlt />,
+		},
 	],
 };

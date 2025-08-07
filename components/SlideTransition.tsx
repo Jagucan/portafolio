@@ -17,7 +17,7 @@ const SlideTransition = () => {
 					animate="animate"
 					exit="exit"
 					transition={{ delay: 0.2, duration: 0.6, ease: "easeInOut" }}
-					className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#131318]"
+					className="fixed top-0 bottom-0 right-full w-screen h-screen z-30 bg-[#1c1c22]"
 				/>
 			</div>
 		</AnimatePresence>

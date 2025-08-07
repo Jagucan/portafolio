@@ -11,8 +11,9 @@ const Navbar = () => {
 	const pathName = usePathname();
 
 	return (
-		<MotionTransition position="bottom">
-			<nav className="navbar flex gap-8 items-center">
+    <MotionTransition position="bottom">
+      {/* Navbar */}
+			<nav className="flex gap-8 items-center">
 				{navigationLinks.map((item) => (
 					<div key={item.id} className="">
 						<Link
@@ -30,7 +31,7 @@ const Navbar = () => {
 				<div className="hidden md:flex">
 					<Link href="/contact">
 						<Button className="bg-transparent hover:bg-emerald-700 hover:text-white transition-all">
-							Contact Me
+							Contacto
 						</Button>
 					</Link>
 				</div>
