@@ -3,7 +3,7 @@ import { personalInfo } from "@/data/portfolioData";
 const AboutMeSection = () => {
 	return (
 		<div className="flex flex-col gap-[30px]">
-			<h3 className="text-4xl">
+			<h3 className="title text-4xl">
 				{personalInfo.title.first}{" "}
 				<span className="text-emerald-500 font-bold">
 					{personalInfo.title.second}

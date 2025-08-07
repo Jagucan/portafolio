@@ -14,7 +14,7 @@ const Introduction = () => {
 				<div className="flex flex-col md:flex-row items-center justify-between lg:pt-5 lg:pb-10 md:pb-20">
 					{/* Text / Description */}
 					<div className="text-center lg:text-left order-2 lg:order-none">
-						<span className="text-xl">Software Developer</span>
+						<span className="title text-xl">Software Developer</span>
 						<h1 className="h1 md:mb-5 md:mt-5">
 							Hola soy <br />{" "}
 							<span className="text-emerald-500">Jacinto Gutierrez</span>

@@ -12,7 +12,7 @@ const SkillSection = () => {
 	return (
 		<div className="flex flex-col gap-[30px]">
 			<div className="flex flex-col gap-[30px] text-center lg:text-left">
-				<h3 className="text-4xl">
+				<h3 className="title text-4xl">
 					{skillsList.title.first}{" "}
 					<span className="text-emerald-500 font-bold">
 						{skillsList.title.second}

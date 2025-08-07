@@ -1,0 +1,28 @@
+"use client";
+
+import { useSwiper } from "swiper/react";
+import { PiCaretLeftBold, PiCaretRightBold } from "react-icons/pi";
+
+interface SliderButtonsProps {
+	containerStyles: string;
+	iconsStyles: string;
+	btnStyles: string;
+}
+
+const SliderButtons = (props: SliderButtonsProps) => {
+	const swiper = useSwiper();
+	const { containerStyles, iconsStyles, btnStyles } = props;
+
+	return (
+		<div className={containerStyles}>
+			<button className={btnStyles} onClick={() => swiper.slidePrev()}>
+				<PiCaretLeftBold className={iconsStyles} />
+			</button>
+			<button className={btnStyles} onClick={() => swiper.slideNext()}>
+				<PiCaretRightBold className={iconsStyles} />
+			</button>
+		</div>
+	);
+};
+
+export default SliderButtons;

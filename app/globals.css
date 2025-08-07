@@ -15,6 +15,21 @@ main {
 	height: 100dvh;
 }
 
+.text-outline {
+	-webkit-text-stroke: 1px #10b981;
+	font-family: var(--font-jetbrains-mono);
+}
+
+.title {
+	font-family: var(--font-jetbrains-mono);
+	text-transform: capitalize;
+}
+
+.project_title {
+	font-family: var(--font-jetbrains-mono);
+	text-transform: capitalize;
+}
+
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets
 	.swiper-pagination-bullet {

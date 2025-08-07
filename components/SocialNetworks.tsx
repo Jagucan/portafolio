@@ -6,6 +6,7 @@ interface SocialNetworksIconsProps {
 	containerStyles: string;
 	iconStyles: string;
 }
+
 const SocialNetworks = (props: SocialNetworksIconsProps) => {
 	const { containerStyles, iconStyles } = props;
 	return (
