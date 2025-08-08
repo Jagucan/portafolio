@@ -6,6 +6,8 @@ import { FiDownload } from "react-icons/fi";
 
 import PhotoProfile from "./PhotoProfile";
 import SocialNetworks from "./SocialNetworks";
+import Link from "next/link";
+import CvDownloadData from "./DownloadBtn";
 
 const Introduction = () => {
 	return (
@@ -52,18 +54,11 @@ const Introduction = () => {
 
 						{/* Btn / Socials */}
 						<div className="flex flex-col lg:flex-row justify-center items-center md:max-w-md gap-5">
-							<Button
-								variant="outline"
-								className="z-10 uppercase flex items-center gap-2 bg-black/70 border-emerald-500 text-emerald-500 rounded-3xl hover:bg-emerald-700 hover:text-white"
-							>
-								<span>Download CV</span>
-								<FiDownload />
-							</Button>
 							<div className="z-10">
-								<SocialNetworks
-									containerStyles="flex gap-4"
-									iconStyles="w-6 h-6 flex hover:text-emerald-500 hover:transition-all duration-500"
-								/>
+								<CvDownloadData />
+							</div>
+							<div className="z-10">
+								<SocialNetworks />
 							</div>
 						</div>
 					</div>

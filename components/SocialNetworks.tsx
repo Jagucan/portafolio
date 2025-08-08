@@ -2,17 +2,16 @@ import { socialLinks } from "@/data/portfolioData";
 
 import Link from "next/link";
 
-interface SocialNetworksIconsProps {
-	containerStyles: string;
-	iconStyles: string;
-}
-
-const SocialNetworks = (props: SocialNetworksIconsProps) => {
-	const { containerStyles, iconStyles } = props;
+const SocialNetworks = () => {
 	return (
-		<div className={containerStyles}>
+		<div className="flex gap-4">
 			{socialLinks.map(({ id, src, logo }) => (
-				<Link key={id} href={src} target="_blank" className={iconStyles}>
+				<Link
+					key={id}
+					href={src}
+					target="_blank"
+					className="w-6 h-6 flex hover:text-emerald-500 hover:transition-all duration-500"
+				>
 					{logo}
 				</Link>
 			))}

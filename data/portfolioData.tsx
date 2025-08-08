@@ -1,7 +1,7 @@
 import { info } from "console";
 import { Atom, Code2, Database, Globe } from "lucide-react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
-import { FiGithub, FiLinkedin, FiDatabase } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiDatabase, FiDownload } from "react-icons/fi";
 import {
 	SiHtml5,
 	SiCss3,
@@ -30,9 +30,15 @@ export const socialLinks = [
 	{
 		id: 2,
 		logo: <FiLinkedin size={30} strokeWidth={1} />,
-		src: "https://www.linkedin.com/in/jacinto-gutierrez-cantillo-software-developer/",
+		src: "https://www.linkedin.com/in/jgutierrez-dev/",
 	},
 ];
+
+export const cvData = {
+	title: "Descargar CV",
+	logo: <FiDownload size={30} strokeWidth={1} />,
+	src: "https://drive.google.com/uc?export=download&id=1Nod4rm5tNZRXXMnLe8WMKPRx1F9GlaIQ",
+};
 
 export const navigationLinks = [
 	{
