@@ -1,0 +1,4 @@
+name = "jg-portafolio"
+main = "./.next/standalone/server.js"
+compatibility_date = "2025-08-07"
+compatibility_flags = [ "nodejs_compat_populate_process_env" ]
