@@ -27,7 +27,7 @@ const ContactForm = () => {
 					<input
 						type="hidden"
 						name="_next"
-						value="https://tudominio.com/gracias"
+						value="https://portafolio-omega-lyart.vercel.app/"
 					/>
 					{/* Honeypot */}
 					<input type="text" name="_honey" style={{ display: "none" }} />
