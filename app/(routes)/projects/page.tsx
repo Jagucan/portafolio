@@ -20,10 +20,14 @@ import Link from "next/link";
 import Image from "next/image";
 import SliderButtons from "@/components/SliderButtons";
 
+interface SwiperProps {
+	activeIndex: number;
+}
+
 const ProjectsPage = () => {
 	const [project, setProject] = useState(portfolioProjects[0]);
 
-	const handleSliderChange = (swiper: any) => {
+	const handleSliderChange = (swiper: SwiperProps) => {
 		const currentIndex = swiper.activeIndex;
 		setProject(portfolioProjects[currentIndex]);
 	};

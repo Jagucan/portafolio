@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface LogoProps {
 	readonly className: string;
 }
@@ -7,10 +9,12 @@ export function LogoAnimated(props: LogoProps) {
 
 	return (
 		<div className={`${className}`}>
-			<img
+			<Image
 				src="/assets/icons/desarrollo.png"
 				alt="JG Dev logo"
-				className="w-15 h-15 animate-spin"
+				width={200}
+				height={200}
+				className="h-15 w-15 animate-spin"
 				style={{
 					animationDuration: "5s",
 					filter: "invert(0.5)",
