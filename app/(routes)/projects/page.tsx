@@ -105,7 +105,7 @@ const ProjectsPage = () => {
 												{/* Overlay */}
 												<div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
 												{/* Project_image  */}
-												<div className="relative w-full h-full">
+												<div className="relative w-full h-[90%] items-center">
 													<Image
 														src={item.image}
 														alt={item.title}
