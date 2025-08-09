@@ -180,14 +180,14 @@ export const portfolioProjects = [
 	},
 	{
 		id: 6,
-		num: "06",
+		num: "08",
 		category: "AR / VR",
-		title: "360 VR Video Tour",
+		title: "VR Room",
 		description:
-			"Experiencia inmersiva en entorno 360° para dispositivos de VR",
-		stack: [{ name: "Unity" }, { name: "C#" }],
-		image: "https://i.postimg.cc/k54vCtH6/img.png",
-		urlGithub: "https://github.com/Jagucan/360-vr-video-tour",
+			"Experiencia VR interactiva creada para Google Cardboard. Permite explorar un entorno virtual y activar objetos dentro de la escena.",
+		stack: [{ name: "Unity" }, { name: "Google VR SDK" }, { name: "C#" }],
+		image: "https://i.postimg.cc/qqLG0XpK/vr-room.png",
+		urlGithub: "https://github.com/Jagucan/vr-room",
 		urlDemo: "#!",
 	},
 	{
@@ -203,14 +203,14 @@ export const portfolioProjects = [
 	},
 	{
 		id: 8,
-		num: "08",
+		num: "06",
 		category: "AR / VR",
-		title: "VR Room",
+		title: "360 VR Video Tour",
 		description:
-			"Experiencia VR interactiva creada para Google Cardboard. Permite explorar un entorno virtual y activar objetos dentro de la escena.",
-		stack: [{ name: "Unity" }, { name: "Google VR SDK" }, { name: "C#" }],
-		image: "https://i.postimg.cc/qqLG0XpK/vr-room.png",
-		urlGithub: "https://github.com/Jagucan/vr-room",
+			"Experiencia inmersiva en entorno 360° para dispositivos de VR",
+		stack: [{ name: "Unity" }, { name: "C#" }],
+		image: "https://i.postimg.cc/k54vCtH6/img.png",
+		urlGithub: "https://github.com/Jagucan/360-vr-video-tour",
 		urlDemo: "#!",
 	},
 ];
