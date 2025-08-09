@@ -24,7 +24,7 @@ const ProjectDetails = ({ project }: ProjectDetailsProps) => {
 			<div className="outline_num text-5xl lg:text-7xl leading-none font-extrabold text-outline text-transparent">
 				{project.num}
 			</div>
-			<h2 className="text-4xl lg:text-6xl font-bold leading-none text-white group-hover:text-emerald-500 transition-all duration-500 capitalize">
+			<h2 className="title text-4xl lg:text-6xl font-bold leading-none text-white group-hover:text-emerald-500 transition-all duration-500 capitalize">
 				{project.title}
 			</h2>
 			<p className="text-white/60">{project.description}</p>
