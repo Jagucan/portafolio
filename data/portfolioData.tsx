@@ -1,4 +1,3 @@
-import { info } from "console";
 import { Atom, Code2, Database, Globe } from "lucide-react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
 import { FiGithub, FiLinkedin, FiDatabase, FiDownload } from "react-icons/fi";
@@ -136,7 +135,7 @@ export const portfolioProjects = [
 		category: "Backend",
 		title: "Urbania",
 		description:
-			"plataforma web desarrollada para una inmobiliaria especializada en la venta de propiedades de lujo, como casas y departamentos de alta gama.",
+			"Plataforma web desarrollada para una inmobiliaria especializada en la venta de propiedades de lujo, como casas y departamentos de alta gama.",
 		stack: [
 			{ name: "Node.Js" },
 			{ name: "Express" },
@@ -154,7 +153,7 @@ export const portfolioProjects = [
 		num: "04",
 		category: "Full Stack",
 		title: "MediConnect",
-		description: "plataforma web desarrollada para gestionar citas médicas",
+		description: "Plataforma web desarrollada para gestionar citas médicas",
 		stack: [
 			{ name: "Node.Js" },
 			{ name: "Express" },
