@@ -21,7 +21,7 @@ const PhotoProfile = () => {
 						opacity: 1,
 						transition: { delay: 2.4, duration: 0.5, ease: "easeInOut" },
 					}}
-					className="w-[200px] h-[200px] sm:w-[400px] sm:h-[400px]  mix-blend-darken absolute"
+					className="w-[200px] h-[200px] sm:w-[400px] sm:h-[400px] absolute"
 				>
 					<Image
 						src="https://i.postimg.cc/59Tht9qx/1720804745027.jpg"
