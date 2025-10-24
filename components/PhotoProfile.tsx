@@ -24,7 +24,7 @@ const PhotoProfile = () => {
 					className="w-[200px] h-[200px] sm:w-[400px] sm:h-[400px]  mix-blend-darken absolute"
 				>
 					<Image
-						src="/assets/profile4.png"
+						src="https://i.postimg.cc/59Tht9qx/1720804745027.jpg"
 						priority
 						quality={100}
 						fill
