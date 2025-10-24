@@ -29,7 +29,7 @@ const PhotoProfile = () => {
 						quality={100}
 						fill
 						alt="profile pic"
-						className="object-contain"
+						className="object-contain rounded-full"
 					/>
 				</motion.div>
 
