@@ -24,10 +24,10 @@ const PhotoProfile = () => {
 					className="w-[200px] h-[200px] sm:w-[400px] sm:h-[400px] absolute"
 				>
 					<Image
-						src="https://i.postimg.cc/59Tht9qx/1720804745027.jpg"
+						src="/profile.jpg"
+						fill
 						priority
 						quality={100}
-						fill
 						alt="profile pic"
 						className="object-contain rounded-full"
 					/>
