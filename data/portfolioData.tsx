@@ -1,4 +1,4 @@
-import { Atom, Code2, Database, Globe } from "lucide-react";
+import { Atom, Code2, Database, Globe, Server } from "lucide-react";
 import { FaEnvelope, FaMapMarkedAlt, FaPhoneAlt } from "react-icons/fa";
 import { FiGithub, FiLinkedin, FiDatabase, FiDownload } from "react-icons/fi";
 import {
@@ -68,30 +68,31 @@ export const servicesList = [
 		icon: <Code2 />,
 		title: "Desarrollo Full Stack",
 		description:
-			"Aplicaciones web completas con APIs robustas e integración a bases de datos eficientes.",
+			"Desarrollo de aplicaciones web completas, integrando front-end, back-end y bases de datos de forma eficiente.",
 	},
 	{
 		id: 2,
-		icon: <Atom />,
-		title: "Desarrollo AR/VR",
+		icon: <Server />,
+		title: "Desarrollo Back-end",
 		description:
-			"Experiencias inmersivas, videojuegos y entornos virtuales en 3D.",
+			"Creación de APIs seguras y escalables, lógica de negocio y manejo de datos en el servidor.",
 	},
 	{
 		id: 3,
-		icon: <Globe />,
-		title: "Desarrollo Web",
+		icon: <Atom />,
+		title: "Desarrollo Front-end",
 		description:
-			"Sitios web modernos, rápidos y adaptados a las necesidades de tu proyecto o negocio.",
+			"Interfaces modernas, responsivas y centradas en la experiencia del usuario.",
 	},
 	{
 		id: 4,
 		icon: <Database />,
 		title: "Bases de Datos",
 		description:
-			"Modelado y gestión de bases SQL con estructuras limpias y consultas optimizadas.",
+			"Modelado y gestión de bases de datos SQL con estructuras limpias y consultas optimizadas.",
 	},
 ];
+
 
 export const portfolioProjects = [
 	{
@@ -164,52 +165,6 @@ export const portfolioProjects = [
 		],
 		image: "https://i.postimg.cc/G3W1WL6j/mediconect-img-1.png",
 		urlGithub: "https://github.com/Jagucan/c22-01-n-webapp",
-		urlDemo: "#!",
-	},
-	{
-		id: 5,
-		num: "05",
-		category: "AR / VR",
-		title: "3D Multiplayer Racing Game",
-		description: "Carreras de autos multijugador en un entorno 3D",
-		stack: [{ name: "Unity" }, { name: "MLAPI" }, { name: "C#" }],
-		image: "https://i.postimg.cc/j2HvkYWR/3d-car-game.png",
-		urlGithub: "https://github.com/Jagucan/3d-multiplayer-racing-game",
-		urlDemo: "#!",
-	},
-	{
-		id: 6,
-		num: "08",
-		category: "AR / VR",
-		title: "VR Room",
-		description:
-			"Experiencia VR interactiva creada para Google Cardboard. Permite explorar un entorno virtual y activar objetos dentro de la escena.",
-		stack: [{ name: "Unity" }, { name: "Google VR SDK" }, { name: "C#" }],
-		image: "https://i.postimg.cc/qqLG0XpK/vr-room.png",
-		urlGithub: "https://github.com/Jagucan/vr-room",
-		urlDemo: "#!",
-	},
-	{
-		id: 7,
-		num: "07",
-		category: "AR / VR",
-		title: "WebXR Bowling Game",
-		description: "Mini-juego de bolos en 3D en WebXR para navegadores",
-		stack: [{ name: "Unity" }, { name: "WebXR" }, { name: "C#" }],
-		image: "https://i.postimg.cc/HxFqXmMz/bowling.png",
-		urlGithub: "https://github.com/Jagucan/web-xr-bowling",
-		urlDemo: "#!",
-	},
-	{
-		id: 8,
-		num: "06",
-		category: "AR / VR",
-		title: "360 VR Video Tour",
-		description:
-			"Experiencia inmersiva en entorno 360° para dispositivos de VR",
-		stack: [{ name: "Unity" }, { name: "C#" }],
-		image: "https://i.postimg.cc/k54vCtH6/img.png",
-		urlGithub: "https://github.com/Jagucan/360-vr-video-tour",
 		urlDemo: "#!",
 	},
 ];
@@ -292,12 +247,6 @@ export const educationList = {
 			degree: "Desarrollo de Software",
 			duration: "2022 - 2023",
 		},
-		{
-			id: 2,
-			institution: "Holberton School",
-			degree: "Desarrollo AR/VR",
-			duration: "2023 - 2024",
-		},
 	],
 };
 
@@ -319,16 +268,10 @@ export const skillsList = {
 		{ id: 7, icon: <SiTailwindcss />, name: "Tailwind CSS" },
 		{ id: 8, icon: <SiBootstrap />, name: "Bootstrap" },
 
-		{ id: 9, icon: <SiDotnet />, name: ".NET" },
 		{ id: 10, icon: <SiNodedotjs />, name: "Node.js" },
 		{ id: 11, icon: <SiExpress />, name: "Express" },
-		{ id: 12, icon: <FiDatabase />, name: "SQL Server" },
 		{ id: 13, icon: <SiMysql />, name: "MySQL" },
 		{ id: 14, icon: <SiPostgresql />, name: "PostgreSQL" },
-
-		{ id: 15, icon: <SiUnity />, name: "Unity" },
-		{ id: 16, icon: <SiSharp />, name: "C#" },
-		{ id: 17, icon: <SiThreedotjs />, name: "Three.js" },
 	],
 };
 
